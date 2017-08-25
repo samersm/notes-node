@@ -1,0 +1,8 @@
+Add a New Function
+* make a new function called (add)
+* the add function is set on export object
+* the function takes two arguments (A, B) to add them together and return the results
+* in app.js call the notesadd function to pass two numbers
+* then print the results to the screen
+Completed!
+
