@@ -2,18 +2,17 @@ console.log('Starting app.js');
 
 const fs = require('fs');
 const os = require('os');
+const _ = require('lodash');
 const notes = require('./notes.js');
 
-// var res = notes.addNote();
-// console.log(res);
+var filteredArray = _.uniq(['Samer', 1, 'Samer', 1, 2, 3, 4]);
+console.log(filteredArray);
 
-// Challenge personal answer
-// var res = notes.add();
-// console.log(res);
+// console.log(_.isString(true));
+// console.log(_.isString('samer'));
 
 // Challenge Teacher answer
-var res = notes.add();
-console.log('Result: ', notes.add(9, -2));
+// console.log('Result: ', notes.add(9, -2));
 
 
 // var user = os.userInfo();

@@ -8,12 +8,6 @@ module.exports.addNote = () => {
   
 };
 
-// Challenge personal answer
-// module.exports.add = () => {
-//   console.log('15');  
-//   return('12');
-// };
-
 // Challenge Teacher answer
 module.exports.add = (a, b) => {
     return a + b;
