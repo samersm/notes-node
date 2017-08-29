@@ -1,6 +1,5 @@
 console.log('Starting notes.js');
 
-// console.log(module);
 
 module.exports.addNote = () => {
   console.log('addNote');
@@ -8,7 +7,3 @@ module.exports.addNote = () => {
   
 };
 
-// Challenge Teacher answer
-module.exports.add = (a, b) => {
-    return a + b;
-};
